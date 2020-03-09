@@ -1,0 +1,5 @@
+package com.epam.structuralPatterns;
+
+public abstract class Component {
+
+}

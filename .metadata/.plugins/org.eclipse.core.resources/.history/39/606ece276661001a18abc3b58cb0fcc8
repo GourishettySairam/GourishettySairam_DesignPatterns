@@ -1,0 +1,5 @@
+package com.epam.creationalPatterns;
+
+public abstract class IAnimalFactory {
+
+}

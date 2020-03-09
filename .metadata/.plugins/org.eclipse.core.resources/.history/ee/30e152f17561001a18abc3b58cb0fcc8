@@ -1,0 +1,20 @@
+package com.epam.behavioralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class ObserverType2 
+{
+	final Logger LOGGER = LogManager.getLogger(ObserverType2.class);
+	
+	string nameOfObserver;        
+	public ObserverType2(String name)        
+	{            
+		this.nameOfObserver = name;        
+	}
+	
+	 public void Update(int i)        
+	 {             
+		 LOGGER.info(" notified: myValue in Subject at  present: " + nameOfObserver + i);        
+	 }
+}

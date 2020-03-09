@@ -1,0 +1,20 @@
+package com.epam.structuralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+public class ConcreteDecoratorEx1 extends AbstractDecorator
+{
+	final Logger LOGGER = LogManager.getLogger(ConcreteDecoratorEx1.class);
+	public void MakeHouse()
+	{
+		super.MakeHouse();
+		LOGGER.info("Using a decorator");
+		AddFloor();
+	}
+	private void AddFloor()
+	{
+		LOGGER.info("Iam making an additonal floor on top of it ");
+	}
+}

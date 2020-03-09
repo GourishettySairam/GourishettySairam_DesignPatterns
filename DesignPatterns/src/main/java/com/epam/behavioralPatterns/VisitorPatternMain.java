@@ -1,0 +1,19 @@
+package com.epam.behavioralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class VisitorPatternMain {
+
+	public static void main(String[] args) 
+	{
+		final Logger LOGGER = LogManager.getLogger(VisitorPatternMain.class);
+		LOGGER.info("visitor Pattern");
+		IVisitor visitor = new Visitor();
+		MyClass myClass = new MyClass();
+		myClass.Accept(visitor);;
+		
+
+	}
+
+}

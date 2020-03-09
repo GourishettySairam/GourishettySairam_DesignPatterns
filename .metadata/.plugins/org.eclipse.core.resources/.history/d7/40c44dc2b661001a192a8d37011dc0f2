@@ -1,0 +1,22 @@
+package com.epam.behavioralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Invoke 
+{
+	
+	final Logger LOGGER = LogManager.getLogger(Invoke.class);
+		
+	 ICommand commandToBePerformed;        
+	 public void SetCommand(ICommand command)        
+	 {            
+		 this.commandToBePerformed = command;        
+	 }        
+	 public void ExecuteCommand()        
+	 {            
+		 commandToBePerformed.Do();        
+	 } 
+	
+
+}

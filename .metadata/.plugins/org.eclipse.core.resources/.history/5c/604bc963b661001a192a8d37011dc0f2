@@ -1,0 +1,6 @@
+package com.epam.behavioralPatterns;
+
+public interface IOriginalInterface 
+{
+	void Accept(IVisitior visitor);
+}

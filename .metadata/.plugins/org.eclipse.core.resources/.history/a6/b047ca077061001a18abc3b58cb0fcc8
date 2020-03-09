@@ -1,0 +1,15 @@
+package com.epam.behavioralPatterns;
+
+public class MyRedoCommand implements ICommand
+{
+	private Receiver receiver;
+	public MyRedoCommand(Reciever recv)
+	{
+		receiver = recv;
+	}
+	public void Do()
+	{
+		receiver.OptionalTaskPriorToRedo();
+		receiver.PerformRedo();
+	}
+}

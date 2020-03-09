@@ -1,0 +1,19 @@
+package com.epam.behavioralPatterns;
+
+public class CommandPatternMain {
+
+	public static void main(String[] args) 
+	{
+		
+		 Invoke invoker = new Invoke();            
+		 Receiver intendedreceiver = new Receiver();
+         ICommand undoCmd = new MyUndoCommand(intendedreceiver);            
+         invoker.SetCommand(undoCmd);            
+         invoker.ExecuteCommand();
+         MyRedoCommand redoCmd = new MyRedoCommand(intendedreceiver);            
+         invoker.SetCommand(redoCmd);            
+         invoker.ExecuteCommand()
+
+	}
+
+}

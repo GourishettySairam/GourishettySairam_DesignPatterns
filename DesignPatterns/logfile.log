@@ -1,0 +1,33 @@
+2020-03-09 09:06::42 INFO  SingletonPatternMain:11 - Singleton Pattern Demo
+2020-03-09 09:06::42 INFO  SingletonPatternMain:12 - Trying to create instance s1
+2020-03-09 09:06::42 INFO  SingletonPattern:17 - Instantiating inside the private constuctor
+2020-03-09 09:06::42 INFO  SingletonPattern:19 - number of instances 1
+2020-03-09 09:06::42 INFO  SingletonPattern:23 - We already have an instance now. Use it
+2020-03-09 09:06::42 INFO  SingletonPatternMain:14 - Trying to create instance s2
+2020-03-09 09:06::42 INFO  SingletonPattern:23 - We already have an instance now. Use it
+2020-03-09 09:06::42 INFO  SingletonPatternMain:18 - only one instance exists
+2020-03-09 09:06::52 INFO  FactoryPatternMain:11 - factory pattern:
+2020-03-09 09:06::52 INFO  Tiger:11 - Tiger says : Halum
+2020-03-09 09:06::52 INFO  Tiger:15 - Tigers prefer hunting...
+2020-03-09 09:06::52 INFO  Dog:12 - dog says : BOW BOW
+2020-03-09 09:06::52 INFO  Dog:16 - Dogs prefer barking ...
+2020-03-09 09:07::06 INFO  AdapterPatternMain:11 - Adapter Pattern
+2020-03-09 09:07::07 INFO  AdapterPatternMain:14 - Area of triangle is  100.0square units
+2020-03-09 09:07::13 INFO  DecoratorPatternMain:12 - Decorator Pattern
+2020-03-09 09:07::13 INFO  ConcreteComponent:13 - Original House is complete. It is closed for modification
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx1:13 - Using a decorator
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx1:18 - Iam making an additonal floor on top of it 
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx2:12 - 
+2020-03-09 09:07::13 INFO  ConcreteComponent:13 - Original House is complete. It is closed for modification
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx1:13 - Using a decorator
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx1:18 - Iam making an additonal floor on top of it 
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx2:14 - Using another decorator
+2020-03-09 09:07::13 INFO  ConcreteDecoratorEx2:19 - Now iam painting the house
+2020-03-09 09:07::23 INFO  StrategyPatternMain:13 - strategy pattern
+2020-03-09 09:07::23 INFO  FirstChoice:12 - Travelling to Japan
+2020-03-09 09:07::23 INFO  SecondChoice:12 - Travelling to India
+2020-03-09 09:07::31 INFO  VisitorPatternMain:11 - visitor Pattern
+2020-03-09 09:07::31 INFO  MyClass:21 - Initial value of integer is 5
+2020-03-09 09:07::31 INFO  Visitor:12 - Visitor is trying to change the integer value
+2020-03-09 09:07::31 INFO  Visitor:14 - Exiting from visitor
+2020-03-09 09:07::31 INFO  MyClass:23 - value of integer now is 100

@@ -1,0 +1,20 @@
+package com.epam.behavioralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class ObserverType1 implements IObserver
+{
+	 string nameOfObserver; 
+	 final Logger LOGGER = LogManager.getLogger(ObserverType1.class);
+		
+	 public ObserverType1(String name)        
+	 {            
+		 this.nameOfObserver = name;        
+	 }        
+	 
+	 public void Update(int i)        
+	 {             
+		 Console.WriteLine("{0} has received an alert: Someone has updated myValue in Subject to: {1}", nameOfObserver,i);        
+	 } 
+}

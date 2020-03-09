@@ -1,0 +1,27 @@
+package com.epam.behavioralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Receiver 
+{
+	final Logger LOGGER = LogManager.getLogger(Receiver.class);
+	
+	public void PerformUndo()
+	{
+		LOGGER.info("executing my undo command");
+	}
+	public void PerformRedo()
+	{
+		LOGGER.info("executing my redo command");
+	}
+	public void OptionalTaskPriorToUndo()
+	{
+		LOGGER.info("executing optional tasks prior to execute undo command");
+	}
+	public void OptionalTaskPriorToRedo()
+	{
+		LOGGER.info("executing optional tasks prior to redo command");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.epam.structuralPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class AdapterPatternMain 
+{
+	final Logger LOGGER = LogManager.getLogger(AdapterPatternMain.class);
+	LOGGER.info("Adapter Pattern");
+	CalculatorAdapter cal = new CalculatorAdapter();
+	Triangle t = new Triangle(20,10);
+	LOGGER.info("Area of triangle is " + cal.GetArea(t) + "square units");
+	
+}

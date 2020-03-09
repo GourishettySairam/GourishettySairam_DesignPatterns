@@ -1,0 +1,32 @@
+package com.epam.behavioralPatterns;
+import java.util.*;
+
+public class Subject implements ISubject
+{
+	List<IObserver> observerList = new ArrayList<IObserver>();
+	private int flag;
+	public int get()
+	{
+		return flag;
+	}
+	public void set(int value)
+	{
+		flag = value;
+		NotifyRegisteredUsers(flag);
+	}
+	public void Register(IObserver anObserver)
+	{
+		observerList.add(anObserver);
+	}
+	public void Unregister(IObserver anObserver)
+	{
+		observerList.remove(anObserver);
+	}
+	public void NotifyRegisteredUsers(int i)
+	{
+		for(IObserver observer : observerList)
+		{
+			observer.
+		}
+	}
+}

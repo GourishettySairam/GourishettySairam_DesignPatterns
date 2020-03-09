@@ -1,0 +1,6 @@
+package com.epam.behavioralPatterns;
+
+public interface IObserver 
+{
+	void Update(int i);
+}

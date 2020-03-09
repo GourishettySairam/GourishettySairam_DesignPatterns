@@ -1,0 +1,17 @@
+package com.epam.creationalPatterns;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Dog 
+{
+	public void speak()
+	{
+		final Logger LOGGER = LogManager.getLogger(Dog.class);
+		LOGGER.info("dog says : BOW BOW");
+	}
+	public void action()
+	{
+		LOGGER.info("Dogs prefer barking ...");
+	}
+}

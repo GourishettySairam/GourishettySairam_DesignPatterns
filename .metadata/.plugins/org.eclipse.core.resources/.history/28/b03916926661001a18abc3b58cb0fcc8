@@ -1,0 +1,9 @@
+package com.epam.creationalPatterns;
+
+public class TigerFactory extends IAnimalFactory
+{
+	public IAnimal CreateAnimal()
+	{
+		return new Tiger();
+	}
+}

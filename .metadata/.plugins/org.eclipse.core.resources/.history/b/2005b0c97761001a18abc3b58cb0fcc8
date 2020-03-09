@@ -1,0 +1,15 @@
+package com.epam.behavioralPatterns;
+
+public class Invoke 
+{
+	 ICommand commandToBePerformed;        
+	 public void SetCommand(ICommand command)        
+	 {            
+		 this.commandToBePerformed = command;        
+	 }        
+	 public void ExecuteCommand()        
+	 {            
+		 commandToBePerformed.Do();        
+	 } 
+
+}

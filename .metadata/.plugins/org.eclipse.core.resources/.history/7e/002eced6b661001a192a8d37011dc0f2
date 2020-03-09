@@ -1,0 +1,16 @@
+package com.epam.behavioralPatterns;
+
+public class MyUndoCommand implements ICommand
+{
+	private Receiver receiver ;
+	public MyUndoCommand(Receiver recv)
+	{
+		receiver = recv;
+	}
+	public void Do()
+	{
+		receiver.OptionalTaskPriorToUndo();
+		receiver.PerformUndo();
+	}
+	
+}

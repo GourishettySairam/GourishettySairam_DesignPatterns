@@ -1,0 +1,10 @@
+package com.epam.structuralPatterns;
+
+public class DecoratorPatternMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
